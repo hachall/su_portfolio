@@ -1,0 +1,52 @@
+.bio {
+  height: 100%;
+  width: 100%;
+  padding: 35px 35px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.bio-about-link {
+  margin-bottom: 35px;
+}
+.bio-info {
+  margin-top : 35px;
+
+  p {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+
+.bio-bottom {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  a  {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    &:hover {
+      color: white;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+
+  }
+}

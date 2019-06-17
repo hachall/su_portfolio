@@ -1,10 +1,35 @@
+@import 'home';
+@import 'bio';
+
 body {
   font-family: Helvetica;
+  font-size: 22px;
 }
 
 #root {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // background-color: red;
+  // margin: 0px 35px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.white-link {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+}
+.black-link {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    color: black;
+    opacity: 0.5;
+    text-decoration: none;
+  }
 }

@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import '../assets/stylesheets/application.scss';
 
-const Hello = ({ name }) => {
-  return (
-    <div>
-      Hello,
-      {name}
-    </div>
-  );
-};
+import Router from './components/router'
+
+
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="World" />, root);
+  ReactDOM.render(
+      <Router />
+    , root);
 }
