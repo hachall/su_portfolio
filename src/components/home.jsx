@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
+import ContentCarousel from './content_carousel'
+
 class Home extends Component {
     constructor(props) {
       super(props);
@@ -18,6 +20,7 @@ class Home extends Component {
           </Link>
         </div>
         <div className="content-section">
+          <ContentCarousel/>
         </div>
         <div className="white-gap height-77">
           <div className="content-details">
