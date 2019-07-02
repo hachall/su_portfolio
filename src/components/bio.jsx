@@ -8,12 +8,12 @@ class Bio extends Component {
     return(
       <div className="bio">
         <div className="bio-top">
-          <div className="nav-name">
-            SHINYA UCHIDA
-          </div>
           <Link to='/' className="white-link bio-about-link">
-              ABOUT
+            SHINYA UCHIDA
           </Link>
+          <div className="nav-name">
+            ABOUT
+          </div>
           <div className="bio-info">
             <p>Tokyo Born. London Based.</p>
             <p>Japanese-English Hybrid.</p>
