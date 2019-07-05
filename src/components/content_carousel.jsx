@@ -75,8 +75,10 @@ class ContentCarousel extends Component {
         interval={false}
       >
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <div className="carousel-arrows-box">
+          <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
+          <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        </div>
       </Carousel>
     );
   }

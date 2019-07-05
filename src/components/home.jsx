@@ -8,6 +8,7 @@ import leon from './content/leon'
 import bochica from './content/bochica'
 import genderless_beauty from './content/genderless_beauty'
 import poster_series from './content/poster_series'
+import stefan from './content/stefan'
 
 class Home extends Component {
     constructor(props) {
@@ -39,6 +40,18 @@ class Home extends Component {
         </div>
 
         <div className="content-section">
+          <ContentCarousel items={stefan}/>
+        </div>
+        <div className="white-gap height-77">
+          <div className="content-details">
+            <p>Stefan</p>
+            <p>Art Direction</p>
+            <p>2019</p>
+            <p>Photography: Shinya Uchida</p>
+          </div>
+        </div>
+
+        <div className="content-section">
           <ContentCarousel items={leon}/>
         </div>
         <div className="white-gap height-77">
@@ -56,17 +69,6 @@ class Home extends Component {
           <div className="content-details">
             <p>Bochica</p>
             <p>Museum Rebrand</p>
-            <p>2018</p>
-          </div>
-        </div>
-
-        <div className="content-section">
-          <ContentCarousel items={genderless_beauty}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Genderless Beauty</p>
-            <p>Campaign</p>
             <p>2018</p>
           </div>
         </div>

@@ -8,8 +8,8 @@ const leon = [
     img: true
   },
   {
-    src: 'https://shinyaportfolio.s3.us-east-2.amazonaws.com/3/3.+Bochica+B+animation+.mp4',
-    img: false
+    src: 'https://shinyaportfolio.s3.us-east-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/3.+Bochica+B+2.gif',
+    img: true
   },
   {
     src: "https://shinyaportfolio.s3.us-east-2.amazonaws.com/3/4.+Poster1.jpg",
@@ -20,8 +20,8 @@ const leon = [
     img: true
   },
   {
-    src: "https://shinyaportfolio.s3.us-east-2.amazonaws.com/3/6.App+Walkthrough.mp4",
-    img: false
+    src: "https://shinyaportfolio.s3.us-east-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/6.+App+Walkthrough.gif",
+    img: true
   }
 
 ];
