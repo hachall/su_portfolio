@@ -23,8 +23,8 @@ class Bio extends Component {
         <div className="bio-bottom">
           <div></div>
           <div className="footer-links">
-            <a href="google.com">EMAIL</a>
-            <a href="google.com">INSTAGRAM</a>
+            <a href = "mailto: shinya.u39@gmail.com">EMAIL</a>
+            <a href="https://www.instagram.com/yashin.__/">INSTAGRAM</a>
           </div>
         </div>
       </div>

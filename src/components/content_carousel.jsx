@@ -73,6 +73,7 @@ class ContentCarousel extends Component {
         previous={this.previous}
         className="content-carousel"
         interval={false}
+        touch={true}
       >
         {slides}
         <div className="carousel-arrows-box">

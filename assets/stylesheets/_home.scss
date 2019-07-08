@@ -48,17 +48,38 @@
     height: 50vh;
   }
 
-  // .height-77 {
-  //   height: 30px;
-  // }
+  .height-77 {
+    height: 30px;
+  }
 
-  // .height-72 {
-  //   height: 30px;
-  // }
+  .height-72 {
+    height: 30px;
+  }
 
-  // body {
-  //   font-size: 10px;
-  // }
+  .bottom-white {
+    height: 50px;
+  }
+
+  body {
+    font-size: 9px !important;
+  }
+
+  .content-details p {
+    margin-right: 6px;
+  }
+
+  .carousel-arrows-box {
+    position: absolute;
+    height: 28px !important;
+    bottom: -28px !important;
+    right: 00px;
+    width: 70px !important;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px !important;
+    height: 10px !important;
+  }
+
 
 }
 
