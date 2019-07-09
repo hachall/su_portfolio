@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
+import JQuery from 'jquery'
+import { Swipeable } from 'react-swipeable';
 
 import {
   Carousel,
@@ -20,6 +22,7 @@ class ContentCarousel extends Component {
     this.goToIndex = this.goToIndex.bind(this);
     this.onExiting = this.onExiting.bind(this);
     this.onExited = this.onExited.bind(this);
+    this.carouselRef = React.createRef();
   }
 
   onExiting() {
@@ -47,6 +50,12 @@ class ContentCarousel extends Component {
     this.setState({ activeIndex: newIndex });
   }
 
+  componentWillMount() {
+    // $('.carousel').carousel({
+    //   touch: true // default
+    // })
+  }
+
   render() {
     const { activeIndex } = this.state;
 
@@ -66,8 +75,12 @@ class ContentCarousel extends Component {
       );
     });
 
+    onSwipedLeft: () => { this.carouselRef.current.next(); }
+    onSwipedRight: () => { this.carouselRef.current.previous(); }
+
     return (
       <Carousel
+        ref={this.carouselRef}
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
