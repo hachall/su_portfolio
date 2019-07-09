@@ -88,6 +88,7 @@ class ContentCarousel extends Component {
         interval={false}
         touch={true}
       >
+
         {slides}
         <div className="carousel-arrows-box">
           <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
