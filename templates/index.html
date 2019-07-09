@@ -12,30 +12,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script> -->
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="jquery.bcSwipe.js"></script> -->
+
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
 
     <script type="text/javascript">
-      if (Modernizr.touch) {
-        $(".carousel").swipe({
-        swipe: function(
-        event,
-        direction,
-        distance,
-        duration,
-        fingerCount,
-        fingerData
-            ) {
-        if (direction == "left") $(this).carousel("next");
-        if (direction == "right") $(this).carousel("prev");
-            },
-            allowPageScroll: "vertical"
-          });
-        } else {
-        $(".alert").removeClass("hidden");
-      }
+      $(".carousel-inner").swipe( {
+        //Generic swipe handler for all directions
+        swipeLeft:function(event, direction, distance, duration, fingerCount) {
+            $(this).parent().carousel('next');
+        },
+        swipeRight: function() {
+            $(this).parent().carousel('prev');
+        },
+        //Default is 75px
+        threshold:75
+    });
+
     </script>
+
+
   </body>
 </html>

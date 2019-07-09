@@ -50,11 +50,9 @@ class ContentCarousel extends Component {
     this.setState({ activeIndex: newIndex });
   }
 
-  componentWillMount() {
-    // $('.carousel').carousel({
-    //   touch: true // default
-    // })
-  }
+componentDidMount() {
+  // $('.carousel').bcSwipe({ threshold: 50 });
+}
 
   render() {
     const { activeIndex } = this.state;
