@@ -12,27 +12,11 @@ const stefan = [
     img: true
   },
   {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/3A.+IMG_6723.jpg",
+    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/4.jpg",
     img: true
   },
   {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/3B.+IMG_6638.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/4A.+000012.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/4B.+000035.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/5A.+000028.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/5B.+000041.jpg",
+    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/2.+Stefan%2C+Art+Direction%2C+2019%2C+Photography_+Shinya+Uchida/5.jpg",
     img: true
   }
 

@@ -13,15 +13,7 @@ const new_direction = [
   },
 
   {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/1/4A.+Square_Book_Mockup_1.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/1/4C.+Square-book-mockup-page-3.jpg",
-    img: true
-  },
-  {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/1/4B.+Square_Book_Mockup_PAGE-2.jpg",
+    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/1.+A+New+Direction%2C+Exhibition+Branding%2C+2018/3.+Four-in-One.png",
     img: true
   }
 

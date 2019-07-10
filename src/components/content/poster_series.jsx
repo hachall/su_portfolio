@@ -1,10 +1,10 @@
 const leon = [
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/5.+Personal+Work%2C+Poster+series%2C+2019/1A.+190602_Orange-Smudge.jpg',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/5.+Personal+Work%2C+Poster+series%2C+2019/1.jpg',
     img: true
   },
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/5.+Personal+Work%2C+Poster+series%2C+2019/1B.+190602_Turquoise-smudge_FINAL.jpg',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/5.+Personal+Work%2C+Poster+series%2C+2019/2+(1).jpg',
     img: true
   },
   {

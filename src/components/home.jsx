@@ -80,7 +80,7 @@ class Home extends Component {
           <div className="content-details">
             <p>Personal Work</p>
             <p>Poster Series</p>
-            <p>2017</p>
+            <p>2017-2019</p>
           </div>
         </div>
 

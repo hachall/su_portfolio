@@ -4,7 +4,7 @@ const leon = [
     img: true
   },
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/3/2.+Responsive-logo.jpg',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/2.+Responsive-logo.jpg',
     img: true
   },
   {
