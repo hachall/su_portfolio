@@ -58,7 +58,8 @@ class Home extends Component {
           <div className="content-details">
             <p>Leon</p>
             <p>Art Direction</p>
-            <p>2019 Photography: Daniel Adhami</p>
+            <p>2019</p>
+            <p>Photography: Daniel Adhami</p>
           </div>
         </div>
 
@@ -84,7 +85,7 @@ class Home extends Component {
           </div>
         </div>
 
-        <div className="bottom-black"></div>
+        {/*<div className="bottom-black"></div>*/}
         <div className="bottom-white"></div>
       </div>
     )
