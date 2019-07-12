@@ -13,7 +13,7 @@ const new_direction = [
   },
 
   {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/1.+A+New+Direction%2C+Exhibition+Branding%2C+2018/3.+Four-in-One.png",
+    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/1.+A+New+Direction%2C+Exhibition+Branding%2C+2018/3+(1).+Four-in-One",
     img: true
   }
 
