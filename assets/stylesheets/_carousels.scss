@@ -68,9 +68,10 @@
 
 .carousel-control-next, .carousel-control-prev {
   opacity: 1;
+  transition: opacity 0.3s;
 
-  &:hover, &:focus {
-    opacity: 0.5;
+  &:active {
+    opacity: 0;
   }
 
 }

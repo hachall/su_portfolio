@@ -4,11 +4,11 @@ const new_direction = [
     img: true
   },
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/1/1.+AND01.jpg',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/1.+A+New+Direction%2C+Exhibition+Branding%2C+2018/1.+AND01.jpg',
     img: true
   },
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/1/2.+AHGIF.gif',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/1.+A+New+Direction%2C+Exhibition+Branding%2C+2018/2.+AHGIF.gif',
     img: true
   },
 
