@@ -85,6 +85,7 @@ componentDidMount() {
         className="content-carousel"
         interval={false}
         touch={true}
+        keyboard={false}
       >
 
         {slides}
