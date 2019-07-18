@@ -1,4 +1,4 @@
-const leon = [
+const bochica = [
   {
     src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/1.+Logo.jpg',
     img: true
@@ -26,4 +26,4 @@ const leon = [
 
 ];
 
-export default leon;
+export default bochica;
