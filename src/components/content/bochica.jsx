@@ -8,7 +8,7 @@ const bochica = [
     img: true
   },
   {
-    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/3.+Bochica+B+2.gif',
+    src: 'https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/3.+BochicaB.gif',
     img: true
   },
   {
@@ -20,7 +20,7 @@ const bochica = [
     img: true
   },
   {
-    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/6.+App+Walkthrough.gif",
+    src: "https://shinyaportfolioeu.s3.eu-west-2.amazonaws.com/new_images/Website+Images/4.+Bochica%2C+Museum+Re-brand%2C+2018/6.+AppWalkthrough03.gif",
     img: true
   }
 
