@@ -65,7 +65,8 @@ componentDidMount() {
           key={item.src}
         >
           {item.img ?
-            <img src={item.src} alt={item.altText} className="carousel-img"/>
+            <div className="img-wrapper"><img src={item.src} alt={item.altText} className="carousel-img"/></div>
+
             :  <div className="carousel-vid"><ReactPlayer loop={true} className="vid-box" controls={true} url={item.src} autoPlay playing={true} /></div>
           }
           {/*<CarouselCaption captionText={item.caption} captionHeader={item.caption} />*/}
