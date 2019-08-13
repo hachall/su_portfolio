@@ -77,7 +77,19 @@
   }
 
 }
+.vid-box {
+  width: 90% !important;
+  height: 90% !important;
+  &:focus {
+    outline: 0;
+  }
+}
 
+.vid-box video {
+  &:focus {
+    outline: none;
+  }
+}
 
 
 

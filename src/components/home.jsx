@@ -9,6 +9,7 @@ import bochica from './content/bochica'
 import genderless_beauty from './content/genderless_beauty'
 import poster_series from './content/poster_series'
 import stefan from './content/stefan'
+import astro from './content/astro'
 
 class Home extends Component {
     constructor(props) {
@@ -28,16 +29,7 @@ class Home extends Component {
           </Link>
         </div>
 
-        <div className="content-section">
-          <ContentCarousel items={new_direction}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>New Direction</p>
-            <p>Exhibition Branding</p>
-            <p>2018</p>
-          </div>
-        </div>
+
 
         <div className="content-section">
           <ContentCarousel items={stefan}/>
@@ -52,6 +44,18 @@ class Home extends Component {
         </div>
 
         <div className="content-section">
+          <ContentCarousel items={astro}/>
+        </div>
+        <div className="white-gap height-77">
+          <div className="content-details">
+            <p>Astro Travellin'</p>
+            <p>Video</p>
+            <p>2019</p>
+
+          </div>
+        </div>
+
+        <div className="content-section">
           <ContentCarousel items={leon}/>
         </div>
         <div className="white-gap height-77">
@@ -60,6 +64,17 @@ class Home extends Component {
             <p>Art Direction</p>
             <p>2019</p>
             <p>Photography: Daniel Adhami</p>
+          </div>
+        </div>
+
+        <div className="content-section">
+          <ContentCarousel items={new_direction}/>
+        </div>
+        <div className="white-gap height-77">
+          <div className="content-details">
+            <p>New Direction</p>
+            <p>Exhibition Branding</p>
+            <p>2018</p>
           </div>
         </div>
 
