@@ -77,6 +77,11 @@ componentDidMount() {
     onSwipedLeft: () => { this.carouselRef.current.next(); }
     onSwipedRight: () => { this.carouselRef.current.previous(); }
 
+    let classes = "carousel-arrows-box"
+    if (this.props.items.length == 1) {
+      classes += " nodisplay"
+    }
+
     return (
       <Carousel
         ref={this.carouselRef}
@@ -90,7 +95,7 @@ componentDidMount() {
       >
 
         {slides}
-        <div className="carousel-arrows-box">
+        <div className={classes}>
           <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
           <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
         </div>

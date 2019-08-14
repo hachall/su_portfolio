@@ -44,7 +44,7 @@ class Home extends Component {
         </div>
 
         <div className="content-section">
-          <ContentCarousel items={astro}/>
+          <ContentCarousel  items={astro}/>
         </div>
         <div className="white-gap height-77">
           <div className="content-details">

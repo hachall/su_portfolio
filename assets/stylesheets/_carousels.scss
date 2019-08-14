@@ -105,3 +105,10 @@
   justify-content: center;
 }
 
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+.nodisplay {
+  display: none;
+}
+
