@@ -18,7 +18,7 @@ class Bio extends Component {
               </div>
               <div className="bio-info">
                 <div>
-                  <p>Tokyo Born. London Based.</p>
+                  <p>Tokyo Born. London Raised.</p>
                   <p>Japanese-English Hybrid.</p>
                   <p>Graphic Designer.</p>
                 </div>
