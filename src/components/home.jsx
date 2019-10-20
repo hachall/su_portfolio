@@ -10,6 +10,7 @@ import genderless_beauty from './content/genderless_beauty'
 import poster_series from './content/poster_series'
 import stefan from './content/stefan'
 import astro from './content/astro'
+import animation from './content/animation'
 
 class Home extends Component {
     constructor(props) {
@@ -50,6 +51,18 @@ class Home extends Component {
           <div className="content-details">
             <p>Astro Travellin'</p>
             <p>Video</p>
+            <p>2019</p>
+
+          </div>
+        </div>
+
+        <div className="content-section">
+          <ContentCarousel  items={animation}/>
+        </div>
+        <div className="white-gap height-77">
+          <div className="content-details">
+            <p>Personal Work</p>
+            <p>Animation</p>
             <p>2019</p>
 
           </div>
