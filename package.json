@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "16.3",
     "react-dom": "16.3",
     "react-player": "^1.11.1",
