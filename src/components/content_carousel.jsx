@@ -64,11 +64,17 @@ componentDidMount() {
           onExited={this.onExited}
           key={item.src}
         >
-          {item.img ?
+        {
+          item.src == 'vimeo' ?      <div className="img-wrapper"><iframe src="https://player.vimeo.com/video/437905637" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+            : item.img ?
             <div className="img-wrapper"><img src={item.src} alt={item.altText} className="carousel-img"/></div>
 
             :  <div className="carousel-vid"><ReactPlayer loop={true} className="vid-box" controls={true} url={item.src}  playing={false} /></div>
-          }
+
+
+
+
+        }
           {/*<CarouselCaption captionText={item.caption} captionHeader={item.caption} />*/}
         </CarouselItem>
       );

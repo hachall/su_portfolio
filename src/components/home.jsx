@@ -13,6 +13,7 @@ import astro from './content/astro'
 import animation from './content/animation'
 import flip from './content/flip'
 import borderless from './content/borderless'
+import asara from './content/asara'
 
 class Home extends Component {
     constructor(props) {
@@ -33,8 +34,7 @@ class Home extends Component {
 
 
         <div className="content-section">
-          <iframe src="https://player.vimeo.com/video/437905637" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+          <ContentCarousel items={asara}/>
         </div>
         <div className="white-gap height-77">
           <div className="content-details">
@@ -45,7 +45,7 @@ class Home extends Component {
         </div>
 
         <div className="content-section">
-          <ContentCarousel items={poster_series}/>
+          <ContentCarousel  items={poster_series}/>
         </div>
         <div className="white-gap height-77">
           <div className="content-details">
