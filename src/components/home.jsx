@@ -38,8 +38,9 @@ class Home extends Component {
         </div>
         <div className="white-gap height-77">
           <div className="content-details">
-            <p><a href="https://vimeo.com/437905637">A S A R A</a> from <a href="https://vimeo.com/user45214247">Shinya Uchida</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
+            <p>ASARA</p>
+            <p>Video</p>
+            <p>2020</p>
           </div>
         </div>
 
