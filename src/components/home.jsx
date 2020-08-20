@@ -31,60 +31,15 @@ class Home extends Component {
           </Link>
         </div>
 
-        <div className="content-section">
-          <ContentCarousel items={stefan}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Stefan</p>
-            <p>Art Direction</p>
-            <p>2019</p>
-            <p>Photography: Shinya Uchida</p>
-          </div>
-        </div>
 
         <div className="content-section">
-          <ContentCarousel items={flip}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>FLip</p>
-            <p>Art Direction</p>
-            <p>2019</p>
-          </div>
-        </div>
+          <iframe src="https://player.vimeo.com/video/437905637" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-        <div className="content-section">
-          <ContentCarousel  items={animation}/>
         </div>
         <div className="white-gap height-77">
           <div className="content-details">
-            <p>Personal Work</p>
-            <p>Animation</p>
-            <p>2019</p>
-          </div>
-        </div>
+            <p><a href="https://vimeo.com/437905637">A S A R A</a> from <a href="https://vimeo.com/user45214247">Shinya Uchida</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-        <div className="content-section">
-          <ContentCarousel items={bochica}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Bochica</p>
-            <p>Museum Rebrand</p>
-            <p>2018</p>
-          </div>
-        </div>
-
-        <div className="content-section">
-          <ContentCarousel items={leon}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Leon</p>
-            <p>Art Direction</p>
-            <p>2019</p>
-            <p>Photography: Daniel Adhami</p>
           </div>
         </div>
 
@@ -95,7 +50,19 @@ class Home extends Component {
           <div className="content-details">
             <p>Personal Work</p>
             <p>Poster Series</p>
-            <p>2017-2019</p>
+            <p>2019-2020</p>
+          </div>
+        </div>
+
+
+        <div className="content-section">
+          <ContentCarousel  items={animation}/>
+        </div>
+        <div className="white-gap height-77">
+          <div className="content-details">
+            <p>Personal Work</p>
+            <p>Animation</p>
+            <p>2019</p>
           </div>
         </div>
 
@@ -110,29 +77,6 @@ class Home extends Component {
           </div>
         </div>
 
-
-        <div className="content-section">
-          <ContentCarousel  items={astro}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Astro Travellin'</p>
-            <p>Video</p>
-            <p>2019</p>
-          </div>
-        </div>
-
-
-        <div className="content-section">
-          <ContentCarousel items={borderless}/>
-        </div>
-        <div className="white-gap height-77">
-          <div className="content-details">
-            <p>Borderless</p>
-            <p>Artwork</p>
-            <p>2019</p>
-          </div>
-        </div>
 
 
         {/*<div className="bottom-black"></div>*/}
